@@ -116,4 +116,4 @@ To become an expert in **AI-powered healthcare systems** and contribute to devel
 
 
 **Sondos Mohammed**
-Biomedical Engineer | Full Stack Developer | AI Enthusiast
+Biomedical Engineer | Full Stack Developer 
