@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sondos Mohammed — Biomedical Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0d0d0d;
+  --surface:#141414;
+  --border:#2a2a2a;
+  --accent:#4cc9f0;
+  --text:#f0ede6;
+  --muted:#888;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans';background:var(--bg);color:var(--text);}
+
+section{padding:80px 20px;scroll-margin-top:100px;}
+
+nav{
+  position:fixed;top:0;width:100%;
+  background:#000;display:flex;
+  justify-content:space-between;
+  padding:15px 40px;
+  z-index:100;
+}
+
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px;}
+nav a:hover{color:var(--accent);}
+
+.hero{
+  height:100vh;display:flex;
+  align-items:center;justify-content:center;
+  text-align:center;padding-top:80px;
+}
+
+.hero h1{font-size:48px;}
+.hero p{color:var(--muted);margin:15px 0;}
+
+.container{max-width:1000px;margin:auto;}
+
+h2{margin-bottom:20px;}
+
+.skills span{
+  display:inline-block;
+  background:#1c1c1c;
+  padding:8px 12px;
+  margin:5px;
+  border-radius:5px;
+  font-size:14px;
+}
+
+.card{
+  background:#141414;
+  padding:20px;
+  margin:15px 0;
+  border:1px solid var(--border);
+  border-radius:8px;
+}
+
+.contact a{
+  display:block;
+  margin:10px 0;
+  color:var(--accent);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div>Sondos Mohammed</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>Sondos Mohammed</h1>
+    <p>Full Stack Developer | Biomedical Engineer</p>
+    <p>Passionate about HealthTech & AI Solutions</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a Biomedical Engineer and Full Stack Developer passionate about Artificial Intelligence and healthcare technology.
+      Currently advancing my skills through the Digital Pioneers Initiative, focusing on backend development and modern web systems.
+    </p>
+    <p>
+      I aim to build intelligent medical solutions using AI and image processing, especially in brain tumor detection.
+    </p>
+
+    <h3>Skills</h3>
+    <div class="skills">
+      <span>Python</span>
+      <span>Machine Learning</span>
+      <span>Node.js</span>
+      <span>REST APIs</span>
+      <span>Embedded Systems</span>
+      <span>Problem Solving</span>
+      <span>Git & GitHub</span>
+    </div>
+
+    <p><strong>Career Objective:</strong> To develop AI-powered healthcare systems that improve diagnosis and patient care.</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Full Stack Developer (Trainee)</h3>
+      <p>Digital Pioneers Initiative</p>
+      <p>
+        Learning backend development using Node.js, building REST APIs, and working with databases.
+        Gained experience in designing scalable systems and clean architecture.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Biomedical Engineer</h3>
+      <p>Hospital Maintenance</p>
+      <p>
+        Responsible for maintaining medical equipment and ensuring system functionality.
+        Developed strong troubleshooting and problem-solving skills.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>Pre-Master in Biomedical Engineering</h3>
+      <p>Minufiya University</p>
+      <p>Sep 2024 - Mar 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>Bachelor of Biomedical Engineering</h3>
+      <p>Faculty of Applied Medical Science</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Brain Tumor Image Processing (Main Project)</h3>
+      <p><strong>Problem:</strong> Detecting tumors manually is difficult.</p>
+      <p><strong>Solution:</strong> Used machine learning to analyze MRI images.</p>
+      <p><strong>Tools:</strong> Python, OpenCV</p>
+      <p><strong>Outcome:</strong> Built strong foundation in medical AI.</p>
+    </div>
+
+    <div class="card">
+      <h3>Pressure Sensor System</h3>
+      <p>Built system using PIC16F887 to read pressure and display on LCD.</p>
+    </div>
+
+    <div class="card">
+      <h3>Stepper Motor Control</h3>
+      <p>Controlled motor direction using microcontroller and switches.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <div class="container">
+    <h2>Certifications</h2>
+
+    <div class="card">Introduction to Front-End Development</div>
+    <div class="card">AWS Academy Graduate - Cloud Foundations</div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact">
+    <h2>Contact</h2>
+
+    <a href="mailto:youremail@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/sondos-mohammed/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/sondosmohammed0100-cmyk" target="_blank">GitHub</a>
+
+  </div>
+</section>
+
+</body>
+</html>
